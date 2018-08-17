@@ -18,10 +18,7 @@ function johnLennonFacts(facts){
 }
 
 
-function increment(num){
- num++;
- 
-}
+
 
 function iLoveTheBeatles(num){
   let newArray = [];
