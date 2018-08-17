@@ -26,7 +26,7 @@ function increment(num){
 function iLoveTheBeatles(num){
   let newArray = [];
   do{
-    newArray.push("I love the Beatles!");
+    ["I love the Beatles!", ...newArray];
     increment(num);
   } while (increment(num) < 15)
   return newArray;
