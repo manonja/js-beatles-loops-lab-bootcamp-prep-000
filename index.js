@@ -28,6 +28,6 @@ function iLoveTheBeatles(num){
   do{
     ["I love the Beatles!", ...newArray];
     num++;
-  } while (increment(num) < 15)
+  } while (num < 15)
   return newArray;
 }
